@@ -30,6 +30,14 @@
             font-size: 25px;
         }
     }
+    .consultation {
+        .title_left {
+            font-size: 27px;
+        }
+        &__descr {
+            font-size: 18px;
+        }
+    }
 }
 @media(max-width:768px) {
     .container {
@@ -72,6 +80,21 @@
         }
         &__item:not(:last-child) {
             margin-bottom: 40px;
+        }
+    }
+    .consultation {
+        .title_left {
+            text-align: center;
+            font-size: 25px;
+        }
+        &__descr {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .feed-form {
+            width: 350px;
+            margin: 36px auto;
+            margin-bottom: 0;
         }
     }
 }
@@ -126,6 +149,20 @@
         }
         .title {
             font-size: 18px;
+        }
+    }
+    .consultation {
+        .title_left {
+            font-size: 15px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+        .feed-form {
+            width: 250px;
+            input {
+                height: 40px;
+            }
         }
     }
 }
