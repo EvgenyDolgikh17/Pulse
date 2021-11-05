@@ -37,7 +37,6 @@
         }
     }
     &__content {
-        // justify-content: space-between;
         margin-top: 60px;
         flex-wrap: wrap;
         display: none;
@@ -51,7 +50,6 @@
         border: 2px solid #E8E8E8;
         padding: 20px 20px 26px 20px;
         overflow: hidden;
-        margin-bottom: 20px;
         margin: 0 20px 20px 0px;
         &:nth-child(3n) {
             margin-right: 0px;
@@ -117,7 +115,7 @@
         &__content {
             margin-right: 0px;
             width: 50%;
-            transform: translateX(-100%);
+            transform: translateX(-105%);
             transition: 0.5s all;
             &_active {
                 margin-right: 20px;

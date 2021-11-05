@@ -2,12 +2,12 @@
     padding-bottom: 50px;
     &__item {
         display: flex;
-        align-items: center;
         margin-top: 60px;
-        &__img {
-            margin-right: 60px;
-        }
     }    
+    &__img {
+        width: 169px;
+        height: 169px;
+    }
     &__text {
         margin-left: 60px;
         padding-right: 70px;
