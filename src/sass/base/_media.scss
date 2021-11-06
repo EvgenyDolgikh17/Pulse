@@ -28,7 +28,7 @@
                 font-size: 12px;
             }
         }
-    }
+    }  
 }
 @media(max-width:991px) {
     .container {
@@ -122,6 +122,18 @@
             img {
                 height: 20px;
             }
+        }
+    }
+    .modal {
+        width: 340px;
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+        .feed-form {
+            width: 260px;
         }
     }
 }
@@ -238,6 +250,22 @@
         &__social-item {
             &:hover {
                 margin-bottom: 0;
+            }
+        }
+    }
+    .modal {
+        width: 320px;
+        &__subtitle {
+            font-size: 14px;
+        }
+        &__descr {
+            font-size: 11px;
+        }
+        .feed-form {
+            width: 239px;
+            &_submit {
+                font-size: 14px;
+                height: 50px;
             }
         }
     }
@@ -368,6 +396,22 @@
         &__addr, &__phone {
             font-size: 15px;
             line-height: 15px;
+        }
+    }
+    .modal {
+        padding: 40px 20px;
+        width: 280px;
+        &__close {
+            right: 0px;
+        }
+        &__subtitle {
+            font-size: 14px;
+        }
+        &__descr {
+            font-size: 11px;
+        }
+        .feed-form {
+            width: 239px;
         }
     }
 }
